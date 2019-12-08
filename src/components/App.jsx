@@ -4,7 +4,14 @@ import FunctionalComponent from "./FunctionalComponent";
 
 class App extends React.Component {
   render() {
-    return <ClassComponent />;
+    return (
+      <>
+        <h1>Functional Component</h1>
+        <FunctionalComponent />
+        <h1>Class Component</h1>
+        <ClassComponent />{" "}
+      </>
+    );
   }
 }
 
